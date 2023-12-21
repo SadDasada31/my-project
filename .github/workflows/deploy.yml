@@ -48,4 +48,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages # The branch the action should deploy to.
-          folder: dist/commit # The folder the action should deploy.
+          folder: dist/my-project # The folder the action should deploy.

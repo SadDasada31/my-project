@@ -72,7 +72,7 @@
                 }
               ],
               "outputHashing": "all",
-              "baseHref": "/commit/"
+              "baseHref": "/my-project/"
             }
           },
           "defaultConfiguration": "production"
