@@ -1,0 +1,20 @@
+#top {
+  height: 50px;
+  width: 150px;
+}
+
+#top1 {
+  height: 50px;
+  width: 50px;
+}
+
+#welcome {
+  font-size: 30px;
+  margin-left: 620px;
+  font-weight: bolder;
+}
+
+#tags {
+  font-size: 20px;
+  font-weight: bolder;
+}

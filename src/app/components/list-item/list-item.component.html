@@ -1,0 +1,12 @@
+
+<td>
+  <p
+    [ngClass]="{
+      'crossed-out': isCrossedOut
+    }"
+  >{{ listItem.name }}</p>
+</td>
+<td><p id="solid">{{ listItem.count }}</p></td>
+<td>{{ listItem.price }} </td>
+<td>{{ listItem.sum }}</td>
+<td><button (click)="increase()">Увеличить</button><button (click)="decrease()">Уменьшить</button></td>

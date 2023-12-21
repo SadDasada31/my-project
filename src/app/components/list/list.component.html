@@ -1,0 +1,7 @@
+<ng-container *ngIf="list$ | async as list">
+
+  <ng-container *ngFor="let listItemFromTheCycle of list">
+    <app-list-item [listItem]="listItemFromTheCycle"></app-list-item>
+  </ng-container>
+
+</ng-container>

@@ -1,0 +1,21 @@
+:host {
+  display: table-row;
+}
+
+#solid {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+button {
+  margin-left: 3px;
+}
+
+.crossed-out {
+  text-decoration: line-through;
+}
+
+
+.text-align-left {
+  text-align: left;
+}

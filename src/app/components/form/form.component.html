@@ -1,0 +1,7 @@
+<form [formGroup]="form" (submit)="submitForm()">
+  <input type="text" placeholder="Название товара" [formControl]="form.controls.name">
+  <input type="number" placeholder="Цена" [formControl]="form.controls.price">
+  <input type="number" placeholder="Количество" [formControl]="form.controls.count">
+  <button type="submit" [disabled]="!form.valid">Добавить</button>
+
+</form>
